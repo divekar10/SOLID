@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP", "OCP\OCP.csproj", "{B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCPUI", "OCPUI\OCPUI.csproj", "{7DEBD0B5-2A1B-4B5F-8D37-B553EFC6FE9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSPUI", "LSPUI\LSPUI.csproj", "{4E7E7B55-6021-406D-A3DF-412C8543D121}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP", "LSP\LSP.csproj", "{1955428F-6490-432A-9DB3-387125945AA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7DEBD0B5-2A1B-4B5F-8D37-B553EFC6FE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DEBD0B5-2A1B-4B5F-8D37-B553EFC6FE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DEBD0B5-2A1B-4B5F-8D37-B553EFC6FE9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E7E7B55-6021-406D-A3DF-412C8543D121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7E7B55-6021-406D-A3DF-412C8543D121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E7E7B55-6021-406D-A3DF-412C8543D121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E7E7B55-6021-406D-A3DF-412C8543D121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1955428F-6490-432A-9DB3-387125945AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1955428F-6490-432A-9DB3-387125945AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1955428F-6490-432A-9DB3-387125945AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1955428F-6490-432A-9DB3-387125945AA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
