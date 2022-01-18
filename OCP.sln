@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSPUI", "LSPUI\LSPUI.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP", "LSP\LSP.csproj", "{1955428F-6490-432A-9DB3-387125945AA9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid_SRP", "..\Solid_SRP\Solid_SRP\Solid_SRP.csproj", "{8A2ED836-5E51-4D93-B30F-02056FBF93B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1955428F-6490-432A-9DB3-387125945AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1955428F-6490-432A-9DB3-387125945AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1955428F-6490-432A-9DB3-387125945AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2ED836-5E51-4D93-B30F-02056FBF93B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2ED836-5E51-4D93-B30F-02056FBF93B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2ED836-5E51-4D93-B30F-02056FBF93B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2ED836-5E51-4D93-B30F-02056FBF93B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
