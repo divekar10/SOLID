@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISPUI", "ISPUI\ISPUI.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISP", "ISP\ISP.csproj", "{DFAB134B-A03D-427B-B9BD-F31C25A6B143}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIPUI", "DIPUI\DIPUI.csproj", "{051D09C9-A82D-4FD5-B0FD-607F5BD5B4D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIP", "DIP\DIP.csproj", "{D61FEB8A-1F9B-46AB-A24F-A1AC1DAE9DD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{DFAB134B-A03D-427B-B9BD-F31C25A6B143}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFAB134B-A03D-427B-B9BD-F31C25A6B143}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFAB134B-A03D-427B-B9BD-F31C25A6B143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{051D09C9-A82D-4FD5-B0FD-607F5BD5B4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051D09C9-A82D-4FD5-B0FD-607F5BD5B4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051D09C9-A82D-4FD5-B0FD-607F5BD5B4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051D09C9-A82D-4FD5-B0FD-607F5BD5B4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61FEB8A-1F9B-46AB-A24F-A1AC1DAE9DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61FEB8A-1F9B-46AB-A24F-A1AC1DAE9DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61FEB8A-1F9B-46AB-A24F-A1AC1DAE9DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61FEB8A-1F9B-46AB-A24F-A1AC1DAE9DD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
