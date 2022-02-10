@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DIP
 {
-    public class Chore
+    public class Chore : IChore
     {
         public string ChoreName { get; set; }
-        public Person Owner { get; set; }
+        public IPerson Owner { get; set; }
         public double HoursWorked { get; set; }
         public bool IsComplete { get; set; }
 
@@ -28,7 +28,7 @@ namespace DIP
             log.Log($"Performed Work on {ChoreName}");
 
             Emailer emailer = new Emailer();
-            emailer.SendEmail(Owner, $"The Chore {ChoreName} is Complete.");
+            emailer.SendMessage(Owner, $"The Chore {ChoreName} is Complete.");
         }
     }
 }

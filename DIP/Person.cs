@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DIP
 {
-    public class Person
+    public class Person : IPerson
     {
         public string FirstName { get; set; }
         public string lastName { get; set; }

@@ -11,7 +11,7 @@ namespace DIPUI
     {
         static void Main(string[] args)
         {
-            Person owner = new Person()
+            IPerson owner = new Person()
             {
                 FirstName = "Akash",
                 lastName = "Divekar",
@@ -25,7 +25,7 @@ namespace DIPUI
                 Owner = owner
             };
 
-            chore.PerformedWork(2);
+            chore.PerformedWork(3);
             chore.PerformedWork(1.5);
             chore.CompleteChore();
 
