@@ -16,12 +16,17 @@ namespace DIPUI
 
         public static IChore CreateChore()
         {
-            return new Chore();
+            return new Chore(CreateLogger(), CreateMessageSender());
         }
 
         public static ILogger CreateLogger()
         {
             return new Logger();
+        }
+
+        public static IMessageSender CreateMessageSender()
+        {
+            return new Texter();
         }
     }
 }
